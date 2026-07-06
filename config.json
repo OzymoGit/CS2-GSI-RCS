@@ -1,0 +1,209 @@
+{
+    "game_sensitivity": 0.3,
+    "features": {
+        "rcs_enabled": true,
+        "tts_enabled": true,
+        "bomb_timer_enabled": true,
+        "auto_accept_enabled": false,
+        "follow_rcs_enabled": true,
+        "settle_time": 60,
+        "humanizer_min_step": 6.0,
+        "humanizer_max_step": 12.0,
+        "humanizer_tension": 0.5,
+        "humanizer_overshoot": 0.1,
+        "require_cs2_focused": true,
+        "return_mouse_enabled": true,
+        "return_mouse_duration": 312,
+        "return_mouse_y_ratio": 0.78,
+        "rcs_strength_x": 1.0,
+        "rcs_strength_y": 1.0
+    },
+    "follow_rcs": {
+        "dot_size": 6,
+        "color": [
+            255,
+            0,
+            0,
+            255
+        ]
+    },
+    "gsi": {
+        "enabled": true,
+        "low_ammo_threshold": 5,
+        "server_host": "127.0.0.1",
+        "server_port": 59873
+    },
+    "hotkeys": {
+        "exit": "END",
+        "toggle_recoil": "INSERT",
+        "toggle_weapon_detection": "HOME"
+    },
+    "weapons": [
+        {
+            "name": "ak47",
+            "display_name": "AK-47",
+            "length": 30,
+            "multiple": 6,
+            "sleep_divider": 6.0,
+            "sleep_suber": -0.1,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "m4a4",
+            "display_name": "M4A4",
+            "length": 30,
+            "multiple": 4,
+            "sleep_divider": 4,
+            "sleep_suber": -0.5,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "m4a1",
+            "display_name": "M4A1-S",
+            "length": 20,
+            "multiple": 4,
+            "sleep_divider": 4.0,
+            "sleep_suber": -0.6,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "galil",
+            "display_name": "Galil AR",
+            "length": 35,
+            "multiple": 4,
+            "sleep_divider": 4,
+            "sleep_suber": -0.8,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "famas",
+            "display_name": "FAMAS",
+            "length": 25,
+            "multiple": 4,
+            "sleep_divider": 4,
+            "sleep_suber": -0.4,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "sg553",
+            "display_name": "SG 553",
+            "length": 30,
+            "multiple": 4,
+            "sleep_divider": 4,
+            "sleep_suber": -0.9,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "aug",
+            "display_name": "AUG",
+            "length": 30,
+            "multiple": 4,
+            "sleep_divider": 4,
+            "sleep_suber": -0.9,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "p90",
+            "display_name": "P90",
+            "length": 50,
+            "multiple": 3,
+            "sleep_divider": 3,
+            "sleep_suber": -0.7,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "bizon",
+            "display_name": "PP-BIZON",
+            "length": 64,
+            "multiple": 3,
+            "sleep_divider": 3,
+            "sleep_suber": 0.9,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "ump45",
+            "display_name": "UMP-45",
+            "length": 25,
+            "multiple": 3,
+            "sleep_divider": 3,
+            "sleep_suber": -0.4,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "mac10",
+            "display_name": "MAC-10",
+            "length": 30,
+            "multiple": 3,
+            "sleep_divider": 3,
+            "sleep_suber": -2.2,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "mp5sd",
+            "display_name": "MP5-SD",
+            "length": 30,
+            "multiple": 3,
+            "sleep_divider": 3,
+            "sleep_suber": 0,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "mp7",
+            "display_name": "MP7",
+            "length": 30,
+            "multiple": 3,
+            "sleep_divider": 3.0,
+            "sleep_suber": 0.1,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "mp9",
+            "display_name": "MP9",
+            "length": 30,
+            "multiple": 3,
+            "sleep_divider": 3,
+            "sleep_suber": -0.3,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "m249",
+            "display_name": "M249",
+            "length": 100,
+            "multiple": 3,
+            "sleep_divider": 3,
+            "sleep_suber": -1,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        },
+        {
+            "name": "cz75",
+            "display_name": "CZ75-AUTO",
+            "length": 12,
+            "multiple": 3,
+            "sleep_divider": 3,
+            "sleep_suber": -3,
+            "jitter_timing": 0.0,
+            "jitter_movement": 0.0
+        }
+    ],
+    "kmbox": {
+        "enabled": true,
+        "ip": "192.168.2.188",
+        "port": "16896",
+        "uuid": "46405c53"
+    }
+}

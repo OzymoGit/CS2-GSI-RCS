@@ -1,0 +1,7 @@
+PySide6
+matplotlib
+numpy
+pywin32
+PyQtDarkTheme
+dxcam
+QtAwesome
